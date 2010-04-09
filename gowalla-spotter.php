@@ -4,7 +4,7 @@ Plugin Name: Gowalla Spotter
 Plugin URI: http://www.strm.se/gowalla-spotter
 Description: Displays activity in a <a href="http://gowalla.com">Gowalla</a> Spot in a Wordpress Post or Page.
 Author: Per Åström
-Version: 0.5.2
+Version: 0.5.3
 Author URI: http://www.strm.se
 */
 
