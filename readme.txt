@@ -4,7 +4,7 @@ Donate link: http://strm.se/
 Tags: gowalla, location, activity, gps, geo, poi, stream
 Requires at least: 2.8 
 Tested up to: 2.9.2
-Stable tag: 0.5.1
+Stable tag: 0.5.2
 
 Displays latest activity in a Gowalla Spot as a list in a Wordpress Post or Page.
 
@@ -23,7 +23,7 @@ The last five activities are displayed (API limit).
 1. Upload the folder `gowalla-spotter` to the `/wp-content/plugins/` directory.
 2. Add a new custom field named "Gowalla" 
 3. Put a Spot ID in the Gowalla field (ie: XXXXX from Gowalla-URI: http://gowalla.com/spots/XXXXX)
-4. Add «<?php if (function_exists('gowalla_spotter')) gowalla_spotter(); ?>« inside the loop in a/the page template where you want the list to be displayed
+4. Add `<?php if (function_exists('gowalla_spotter')) gowalla_spotter(); ?>` inside the loop in a/the page template where you want the list to be displayed
 5. Activate the plugin
 6. Thats it!
 
@@ -41,7 +41,7 @@ You might have forgotten to add the line of php or there is an error in it. Also
 
 Email me at per@strm.se.
 
-= I have a complain =
+= I have a complaint! =
 
 Email me at per@strm.se (please be nice, its my first plugin).
 
@@ -51,6 +51,9 @@ Email me at per@strm.se (please be nice, its my first plugin).
 
 
 == Changelog ==
+
+= 0.5.2 =
+* Updated the readme.txt (php code got lost)
 
 = 0.5.1 =
 * Updated the readme.txt
